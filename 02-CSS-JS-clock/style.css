@@ -36,11 +36,28 @@ body {
 
 .hand {
   width: 50%;
-  height: 6px;
+  height: 5px;
   background: black;
   position: absolute;
   top: 50%;
   transform-origin: 100%;
   transform: rotate(90deg);
   transition: all 0.05s ease-in-out;
+}
+
+.hand.hours-hand {
+  height: 8px;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 30%,
+    rgba(0, 0, 0, 1) 30%
+  );
+}
+.hand.mins-hand {
+  height: 8px;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 10%,
+    rgba(0, 0, 0, 1) 10%
+  );
 }
