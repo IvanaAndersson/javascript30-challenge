@@ -1,3 +1,5 @@
+//to improve, I should remove the this keywords from the function
+
 const inputs = document.querySelectorAll(".controls input");
 
 function handleUpdate() {
